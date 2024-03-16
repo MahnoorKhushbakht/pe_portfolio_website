@@ -8,7 +8,7 @@ import HeaderText from './HeaderText';
 
 export default function HeadingText() {
   const fontSize = useBreakpointValue({ base: '18px', md: '20px' });
-  const marginTop = useBreakpointValue({ base: '20%', md: '6%' });
+  const marginTop = useBreakpointValue({ base: '15%', md: '6%' });
   
   return (
 

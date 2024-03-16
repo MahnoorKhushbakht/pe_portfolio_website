@@ -9,10 +9,11 @@
 .carousel-image {
   max-height: 60vh; 
   max-width: 90vw; 
-  width: 20%;
+  width: auto;
   height: auto;
   margin: auto; 
 }
+
 
 .carousel-caption {
   background-color: #735da5af;
