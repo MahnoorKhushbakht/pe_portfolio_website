@@ -32,13 +32,12 @@ const Contact = () => {
   const [isError, setIsError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const outerTheme = useTheme();
-  // const apiUrl = process.env.REACT_APP_API_URL;
+  const apiUrl = process.env.REACT_APP_API_URL;
   const handleSubmit = (formData, resetFormFields) => {
     setIsLoading(true);
   
     axios
-      // .post(`${apiUrl}/contactme`, formData)
-      .post('http://localhost:3001/contactme', formData)
+      .post(`${apiUrl}/contactme`, formData)
       .then((res) => {
         setIsSuccess(true);
         resetFormFields();
