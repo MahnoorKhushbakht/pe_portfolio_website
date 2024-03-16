@@ -1,4 +1,4 @@
-import { Button, Box } from '@chakra-ui/react';
+import { Button} from '@chakra-ui/react';
 import * as React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 

@@ -51,7 +51,7 @@ export default function Services() {
     border: '0px 0px 0px 0px',
     borderColor: 'transparent',
     maxWidth: '80%',
-    width: '60%',
+    width: '80%',
   };
 
   return (

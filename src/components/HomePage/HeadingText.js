@@ -1,4 +1,4 @@
-import { Highlight, Text, Box, useBreakpointValue,Stack,ChakraProvider} from '@chakra-ui/react';
+import { Highlight, Text, Box, useBreakpointValue,Stack} from '@chakra-ui/react';
 import SocialIcon from '../SocialIcon';
 import ResumeBtn from '../ResumeBtn';
 import WhatsAppBtn from '../WhatsappBtn';
@@ -12,8 +12,8 @@ export default function HeadingText() {
   
   return (
 
-<Box maxW="50rem" marginStart='50px'marginTop={marginTop} >
-<Box maxW="50rem">
+<Box maxW="40rem" marginStart='50px'marginTop={marginTop} >
+<Box maxW="40rem">
 <HeaderText>
           Hi there, <br />
           My name is Promise Emmananuel <br />

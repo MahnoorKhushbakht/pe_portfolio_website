@@ -26,9 +26,8 @@ app.post('/contactme', (req, res) => {
       });
   });
 
-const port = process.env.REACT_APP_PORT || 3001;
+const port = process.env.REACT_APP_PORT || 3000;
   
 app.listen(port, () => {
     console.log('Server listening');
   });
-
