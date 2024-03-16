@@ -16,7 +16,7 @@ function Header() {
     color: '#735DA5',
     fontSize: '15px',
     textTransform: 'uppercase',
-    fontFamily: "'Rubik', sans-serif", // Specify multiple font families with fallbacks
+    fontFamily: "'Rubik', sans-serif", 
   };
   
 
@@ -51,7 +51,10 @@ function Header() {
               Home
             </Nav.Link>
             <Nav.Link href="#skills" style={linkStyles}>
-              Skill
+              Skills
+            </Nav.Link>
+            <Nav.Link href="#work" style={linkStyles}>
+              Career
             </Nav.Link>
             <Nav.Link href="#services" style={linkStyles}>
               Services

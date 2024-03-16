@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Skills from './components/Skills';
 import Services from './components/Services';
+import WorkProfile from './components/WorkProfile';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header/>
        <Home/>
 <Skills/>
+<WorkProfile/>
 <Services/>
         <Contact/>
         <AboutMe/>
