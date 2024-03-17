@@ -111,7 +111,8 @@ const Contact = () => {
                               margin: '2px 0',
                               left: '5px',
                               display: 'flex',
-                              alignItems: 'left'
+                              alignItems: 'left',
+                              fontFamily: "'Rubik', sans-serif"
                             }}>
                             {msg}
                           </div>
@@ -140,7 +141,8 @@ const Contact = () => {
                               position: 'relative',
                               margin: '2px 0',
                               left: '5px',
-                              display: 'flex', alignItems: 'left'
+                              display: 'flex', alignItems: 'left',
+                              fontFamily: "'Rubik', sans-serif"
                             }}>
                             {msg}
                           </div>
@@ -169,7 +171,8 @@ const Contact = () => {
                               position: 'relative',
                               margin: '2px 0',
                               left: '5px',
-                              display: 'flex', alignItems: 'left'
+                              display: 'flex', alignItems: 'left',
+                              fontFamily: "'Rubik', sans-serif"
                             }}>
                             {msg}
                           </div>
@@ -199,7 +202,8 @@ const Contact = () => {
                               position: 'relative',
                               margin: '2px 0',
                               left: '5px',
-                              display: 'flex', alignItems: 'left'
+                              display: 'flex', alignItems: 'left',
+                              fontFamily: "'Rubik', sans-serif"
                             }}>
                             {msg}
                           </div>

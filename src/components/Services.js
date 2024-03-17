@@ -62,10 +62,10 @@ export default function Services() {
         sx={cardStyle}
       >
         <CardContent>
-        <Typography color={'rgba(255, 255, 255, 0.856)'} variant="h5" marginBottom={'10px'} fontFamily="'Rubik', sans-serif">
-              My Experience
+        <Typography color={'#a58ce0'} variant="h5" fontWeight='bold' marginBottom={'10px'} fontFamily="'Rubik', sans-serif">
+              How can i assist?
             </Typography>
-            <Typography color={'rgba(255, 255, 255, 0.856)'} variant="h8" marginBottom={'10px'} fontFamily="'Rubik', sans-serif">
+            <Typography color={'rgba(255, 255, 255, 0.856)'} variant="h8" fontStyle='italic' marginBottom={'10px'} fontFamily="'Rubik', sans-serif">
             Empowering businesses with innovative digital strategies
             </Typography>
     <Box sx={{ width: '100%' }}>

@@ -8,11 +8,11 @@ import HeaderText from './HeaderText';
 
 export default function HeadingText() {
   const fontSize = useBreakpointValue({ base: '18px', md: '20px' });
-  const marginTop = useBreakpointValue({ base: '15%', md: '6%' });
+  const marginTop = useBreakpointValue({ base: '10%', md: '6%' });
   
   return (
 
-<Box maxW="40rem" marginStart='50px'marginTop={marginTop} >
+<Box maxW="40rem" marginStart='40px'marginTop={marginTop} >
 <Box maxW="40rem">
 <HeaderText>
           Hi there, <br />
@@ -32,7 +32,7 @@ export default function HeadingText() {
           color='rgba(255, 255, 255, 0.856)'
           fontFamily="'Rubik', sans-serif"
         >
-          Where creativity meets strategy, digital success thrives.
+          Where creativity meets strategy.
         </Text>
         <Stack direction='row' spacing={4}>
           <ResumeBtn />

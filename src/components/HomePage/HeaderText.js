@@ -1,7 +1,7 @@
 import { Heading, useBreakpointValue } from '@chakra-ui/react';
 
 export default function HeaderText({ children }) {
-    const fontSize = useBreakpointValue({ base: '12px', md: '50px' });
+    const fontSize = useBreakpointValue({ base: '8px', md: '50px' });
     return (
         <>
             <Heading
