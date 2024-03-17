@@ -13,7 +13,7 @@ const Container = styled('div')({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  height: '100vh',
+  height: '100vh'
 });
 
 
@@ -27,7 +27,7 @@ export default function AboutMe() {
             justifyContent: 'center',
             width:'60%',
             height:'80%',
-            alignItems: 'center',
+            alignItems: 'center'
           }}
         >
 
@@ -50,7 +50,7 @@ export default function AboutMe() {
     flexGrow: 1,
     display: { xs: 'flex', md: 'none' },
     justifyContent: 'center',
-    height: '60%',
+    height: '70%',
     flexDirection: 'column',
     alignItems: 'center',
   }}
