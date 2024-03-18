@@ -12,7 +12,7 @@ export default function HeadingText() {
   
   return (
 
-<Box maxW="40rem" marginStart='40px'marginTop={marginTop} >
+<Box maxW="40rem" marginStart='40px' marginEnd='10px'marginTop={marginTop} >
 <Box maxW="40rem">
 <HeaderText>
           Hi there, <br />

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Stack, Box } from "@chakra-ui/react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaEnvelope, FaGithub,  FaArrowUp, FaArrowDown } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaEnvelope, FaChevronUp, FaChevronDown } from 'react-icons/fa';
 import { IconButton } from '@chakra-ui/react';
 
 export default function SocialIcon() {
@@ -15,22 +15,16 @@ export default function SocialIcon() {
   };
 
   const handleInstagramClick = () => {
-    window.open('https://instagram.com/noor_khushbakht?igshid=OGQ5ZDc2ODk2ZA==', '_blank');
+    window.open('https://www.instagram.com/emaogochi/', '_blank');
   };
 
   const handleLinkedinClick = () => {
-    window.open('http://www.linkedin.com/in/mahnoorkhushbakht', '_blank');
+    window.open('https://www.linkedin.com/in/promise-emmanuel-8728832a8/', '_blank');
   };
 
   const handleMailClick = () => {
-    window.location.href = 'mailto:Emmaogochi140@gmail.com';
+    window.location.href = 'mailto:emmaogochi140@gmail.com';
   };
-
-  const handleGithubClick = () => {
-    window.open('https://github.com/MahnoorKhushbakht', '_blank');
-  };
-
-
 
   return (
     <Box
@@ -79,17 +73,6 @@ export default function SocialIcon() {
           <IconButton
             variant='solid'
             isRound={true}
-            aria-label='Github'
-            color='#735DA5'
-            backgroundColor='rgba(255, 255, 255, 0.856)'
-            fontSize='20px'
-            size='lg'
-            icon={<FaGithub />}
-            onClick={handleGithubClick}
-          />
-          <IconButton
-            variant='solid'
-            isRound={true}
             aria-label='Mail'
             color='#735DA5'
             backgroundColor='rgba(255, 255, 255, 0.856)'
@@ -106,7 +89,7 @@ export default function SocialIcon() {
             backgroundColor='rgba(255, 255, 255, 0.856)'
             fontSize='20px'
             size='lg'
-            icon={<FaArrowDown />}
+            icon={<FaChevronDown />}
             onClick={handleIconToggle}
           />
         </Stack>
@@ -119,7 +102,7 @@ export default function SocialIcon() {
           backgroundColor='rgba(255, 255, 255, 0.856)'
           fontSize='20px'
           size='lg'
-          icon={<FaArrowUp />}
+          icon={<FaChevronUp />}
           onClick={handleIconToggle}
         />
       )}
