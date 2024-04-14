@@ -51,7 +51,7 @@ export default function Services() {
     backgroundColor: '#a58ce0',
     border: '0px 0px 0px 0px',
     borderColor: 'transparent',
-    width: '80%', 
+    width: '95%', 
     '@media (min-width:600px)': {
       width: '60%', 
     },
