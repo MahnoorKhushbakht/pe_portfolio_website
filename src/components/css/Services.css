@@ -1,7 +1,5 @@
 
-.card:hover{
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-}  
+
 .animate__animated.animate__flipInX {
   --animate-duration: 2s;
   --animate-repeat: 5;
@@ -12,10 +10,5 @@
   --animate-delay: 0.9s;
 }
 
-.text {
 
-  font-family: 'Courier New', Courier, monospace;
-
-
-}
 

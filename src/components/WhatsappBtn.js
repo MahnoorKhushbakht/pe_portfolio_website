@@ -25,7 +25,6 @@ export default function WhatsAppBtn() {
     }}
     variant='contained'
   >
-            <FaWhatsapp marginRight='2px' w={9} h={6} color='#735DA5.500' />
         WhatsApp
 
   </Button>

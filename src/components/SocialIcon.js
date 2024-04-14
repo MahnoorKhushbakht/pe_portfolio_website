@@ -32,11 +32,10 @@ export default function SocialIcon() {
         position: 'fixed',
         bottom: '16px',
         right: '16px',
-        zIndex: 1000, // Ensure it's above other content
+        zIndex: 1000, 
       }}
     >
-      {showIcons ? (
-        <Stack spacing={4} direction='column'>
+        <Stack spacing={4} direction='row'>
           <IconButton
             variant='solid'
             isRound={true}
@@ -81,31 +80,7 @@ export default function SocialIcon() {
             icon={<FaEnvelope />}
             onClick={handleMailClick}
           />
-          <IconButton
-            variant='solid'
-            isRound={true}
-            aria-label='Close Icons'
-            color='#735DA5'
-            backgroundColor='rgba(255, 255, 255, 0.856)'
-            fontSize='20px'
-            size='lg'
-            icon={<FaChevronDown />}
-            onClick={handleIconToggle}
-          />
         </Stack>
-      ) : (
-        <IconButton
-          variant='solid'
-          isRound={true}
-          aria-label='Toggle Icons'
-          color='#735DA5'
-          backgroundColor='rgba(255, 255, 255, 0.856)'
-          fontSize='20px'
-          size='lg'
-          icon={<FaChevronUp />}
-          onClick={handleIconToggle}
-        />
-      )}
     </Box>
   );
 }

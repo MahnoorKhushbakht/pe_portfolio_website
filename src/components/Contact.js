@@ -12,7 +12,7 @@ import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 import axios from 'axios';
 import { Typography } from '@mui/material';
-
+import ContactUs from './ContactUs';
 
 const SignupSchema = Yup.object().shape({
   firstName: Yup.string()
@@ -73,6 +73,7 @@ const Contact = () => {
             <Typography color={'#735DA5'} variant="h4" marginBottom={'10px'} fontFamily= "'Rubik', sans-serif">
               Contact Me
             </Typography>
+            <ContactUs/>
             <Formik
               initialValues={{
                 firstName: '',

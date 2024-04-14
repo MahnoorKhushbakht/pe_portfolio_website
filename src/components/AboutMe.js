@@ -13,13 +13,13 @@ const Container = styled('div')({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  height: '100vh'
+ margin:'100px 0'
 });
 
 
 export default function AboutMe() {
   return (
-    <div id='about' height='100vh'>
+    <div id='about'>
       <Container>
         <Box
           sx={{
@@ -28,6 +28,7 @@ export default function AboutMe() {
             width:'60%',
             height:'80%',
             alignItems: 'center'
+
           }}
         >
 

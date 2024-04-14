@@ -1,10 +1,6 @@
 .header {
-    background-color: rgba(255, 255, 255, 0.856);
-  }
-  @media (max-width: 576px) {
-    .header {
-      background-color: rgba(255, 255, 255, 0.856);
-    }
-  }
+  background-color: #a58ce05b; 
+  backdrop-filter: blur(10px); 
+  font-family: "'Rubik', sans-serif";
+}
 
-  

@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import 'aos/dist/aos.css';
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -47,25 +48,29 @@ export default function Services() {
   };
 
   const cardStyle = {
-    backgroundColor: 'transparent',
+    backgroundColor: '#a58ce0',
     border: '0px 0px 0px 0px',
     borderColor: 'transparent',
-    maxWidth: '80%',
-    width: '80%',
+    width: '80%', 
+    '@media (min-width:600px)': {
+      width: '60%', 
+    },
   };
+  
 
   return (
-    <div id='services' height='100vh'>
-    <Box display="flex" justifyContent="center" alignItems="center" minHeight="100vh" marginTop='100px'  marginBottom='20px'>
+    <div id='services' >
+    <Box display="flex" data-aos="fade-down" data-aos-delay='100' justifyContent="center" alignItems="center" minHeight="100vh" marginTop='100px'  marginBottom='20px'>
       <Card
+      
         variant="outlined"
         sx={cardStyle}
       >
         <CardContent>
-        <Typography color={'#a58ce0'} variant="h5" fontWeight='bold' marginBottom={'10px'} fontFamily="'Rubik', sans-serif">
+        <Typography color={'white'} variant="h5" fontWeight='bold' marginBottom={'10px'} fontFamily="'Rubik', sans-serif">
               How can i assist?
             </Typography>
-            <Typography color={'rgba(255, 255, 255, 0.856)'} variant="h8" fontStyle='italic' marginBottom={'10px'} fontFamily="'Rubik', sans-serif">
+            <Typography color={'white'} variant="h8" marginBottom={'10px'} fontFamily="'Rubik', sans-serif">
             Empowering businesses with innovative digital strategies
             </Typography>
     <Box sx={{ width: '100%' }}>
@@ -80,34 +85,34 @@ export default function Services() {
   allowScrollButtonsMobile
   indicatorColor="secondary"
   aria-label="basic tabs example"
-  style={{ color: 'rgba(255, 255, 255, 0.856)'}}
+  style={{ color: 'white'}}
 >
   <Tab
     label="Digital Marketing"
     {...a11yProps(0)}
-    style={{ color: 'rgba(255, 255, 255, 0.856)' }}
+    style={{ color: 'white' }}
   />
   <Tab
     label="E-commerce Solutions"
     {...a11yProps(1)}
-    style={{ color: 'rgba(255, 255, 255, 0.856)' }}
+    style={{ color: 'white' }}
   />
   <Tab
     label="Marketing Strategies"
     {...a11yProps(2)}
-    style={{ color: 'rgba(255, 255, 255, 0.856)' }}
+    style={{ color: 'white' }}
   />
 </Tabs>
 </div>
 
       </Box>
-      <CustomTabPanel value={value} index={0} style={{ color: 'rgba(255, 255, 255, 0.856)' }} >
+      <CustomTabPanel value={value} index={0} style={{ color: 'white' }} >
       With a keen eye for analytics and a creative flair, I excel in crafting tailored digital marketing campaigns that drive engagement and conversions. From SEO optimization to social media management, I leverage the latest tools and trends to maximize online visibility and reach target audiences effectively.
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={1} style={{ color: 'rgba(255, 255, 255, 0.856)' }} >
+      <CustomTabPanel value={value} index={1} style={{ color: 'white' }} >
       As an adept problem-solver in the e-commerce realm, I specialize in developing comprehensive solutions that streamline operations and enhance customer experiences. From optimizing product listings to implementing user-friendly checkout processes, I am dedicated to maximizing sales and revenue for online businesses.
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={2} style={{ color: 'rgba(255, 255, 255, 0.856)' }} >
+      <CustomTabPanel value={value} index={2} style={{ color: 'white' }} >
       With a strategic mindset and a thorough understanding of market dynamics, I devise innovative marketing strategies that align with business objectives and resonate with target demographics. By leveraging data-driven insights and staying abreast of industry trends, I consistently deliver impactful campaigns that drive brand awareness and foster customer loyalty.
       </CustomTabPanel>
     </Box>

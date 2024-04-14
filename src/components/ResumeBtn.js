@@ -53,7 +53,6 @@ export default function ResumeBtn() {
         >
           {!loading && (
             <>
-              <DownloadIcon marginRight='2px' w={4} h={4} color='#735DA5.500' />
               Resume
             </>
           )}

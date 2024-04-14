@@ -9,17 +9,18 @@ import HeaderText from './HeaderText';
 export default function HeadingText() {
   const fontSize = useBreakpointValue({ base: '18px', md: '20px' });
   const marginTop = useBreakpointValue({ base: '10%', md: '6%' });
+  const marginStart = useBreakpointValue({ base: '10px', md: '110px' });
   
   return (
 
-<Box maxW="40rem" marginStart='40px' marginEnd='10px'marginTop={marginTop} >
-<Box maxW="40rem">
+<Box marginStart={marginStart} marginEnd='10px'marginTop={marginTop} >
+<Box >
 <HeaderText>
           Hi there, <br />
           My name is Promise Emmananuel <br />
           <Highlight
             query={['Digital Marketer', 'Nigeria']}
-            styles={{ color: '#735DA5', fontStyle: 'italic' }}
+            styles={{ color: '#735DA5' }}
             className="animate__animated animate__bounce"
           >
             A Digital Marketer from Nigeria
